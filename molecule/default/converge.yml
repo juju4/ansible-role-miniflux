@@ -8,7 +8,6 @@
     no_proxy: "{{ lookup('env', 'no_proxy') }}"
   remote_user: root
   vars:
-    postgresql_version: 13
     postgresql_users:
       - name: miniflux
         password: miniflux
